@@ -19,12 +19,17 @@ const Navbar = () => {
         <Link href="#faq">FAQ</Link>
       </div>
       <div className="flex flex-row gap-3">
-        <Button className="bg-gradient-to-b from-[#EBF3FA] to-[#DFEDFA] text-black shadow-md cursor-pointer">
-          Sign Up
-        </Button>
-        <Button className="bg-gradient-to-b from-[#EBF3FA] to-[#DFEDFA] text-black shadow-md cursor-pointer">
-          Sign In
-        </Button>
+        <Link href="https://scouthub.appwrite.network">
+          <Button className="bg-gradient-to-b from-[#EBF3FA] to-[#DFEDFA] text-black shadow-md cursor-pointer">
+            Sign Up
+          </Button>
+        </Link>
+
+        <Link href="https://scouthub.appwrite.network">
+          <Button className="bg-gradient-to-b from-[#EBF3FA] to-[#DFEDFA] text-black shadow-md cursor-pointer">
+            Sign In
+          </Button>
+        </Link>
       </div>
     </div>
   );
