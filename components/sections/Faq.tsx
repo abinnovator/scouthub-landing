@@ -9,7 +9,10 @@ import {
 
 const Faq = () => {
   return (
-    <div className="flex flex-col gap-11 px-36">
+    <div
+      className="md:flex md:flex-col gap-11 md:px-36 px-10 w-screen"
+      id="faq"
+    >
       <div className="flex flex-row gap-56">
         <div className="flex flex-col pt-24">
           <h1 className="text-4xl">Frequently Asked Questions</h1>

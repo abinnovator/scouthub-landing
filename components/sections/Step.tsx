@@ -3,7 +3,7 @@ import React from "react";
 
 const Step = () => {
   return (
-    <div className="bg-[#5B73F6] flex flex-col px-8 py-16">
+    <div className="bg-[#5B73F6] flex flex-col px-8 py-16" id="#talent">
       <h1 className="text-center text-white text-4xl">
         Get started with Just 3 simple steps
       </h1>

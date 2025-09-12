@@ -12,7 +12,9 @@ const Hero = () => {
           Trusted by 10,000+ Athletes
         </Badge>
         <div className="flex flex-col gap-5">
-          <h1 className="text-5xl font-semibold">Get Scouted,Go Pro</h1>
+          <h1 className="md:text-5xl text-3xl md:font-semibold text-center">
+            Get Scouted,Go Pro
+          </h1>
           <p className="max-w-[418px]">
             Upload your gameplay footage and connect with coaches and scouts
             from professional teams. Your talent deserves to be seen.
@@ -34,7 +36,7 @@ const Hero = () => {
         alt="football img"
         width={591}
         height={494}
-        className="pt-24"
+        className="pt-24 hidden md:flex"
       />
     </div>
   );
