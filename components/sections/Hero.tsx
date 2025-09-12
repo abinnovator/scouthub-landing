@@ -6,7 +6,7 @@ import Image from "next/image";
 
 const Hero = () => {
   return (
-    <div className="md:flex md:flex-row flex flex-col gap-64">
+    <div className="md:flex md:flex-row flex flex-col gap-64 px-[100px] pb-11">
       <div className="flex flex-col pt-48 gap-5">
         <Badge variant="default" className="bg-[#7A8CF3]">
           Trusted by 10,000+ Athletes
