@@ -14,7 +14,7 @@ const Navbar = () => {
       /> */}
       <p>ScoutHub</p>
 
-      <div className="flex flex-row gap-10">
+      <div className="md:flex md:flex-row md:gap-10 hidden md:show">
         <Link href="#talent">Showcase Talent</Link>
         <Link href="#faq">FAQ</Link>
       </div>
