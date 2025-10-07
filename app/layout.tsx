@@ -30,11 +30,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${monaSans.variable} antialiased pt-6 overflow-x-hidden`}
+        className={`${geistSans.variable} ${geistMono.variable} ${monaSans.variable} antialiased overflow-x-hidden`}
       >
-        <div className="px-[100px]">
+        {/* <div className="px-[100px]">
           <Navbar />
-        </div>
+        </div> */}
 
         {children}
       </body>

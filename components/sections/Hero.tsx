@@ -6,13 +6,13 @@ import Image from "next/image";
 
 const Hero = () => {
   return (
-    <div className="md:flex md:flex-row flex flex-col gap-64 px-[100px] pb-11">
+    <div className="md:flex md:flex-row flex flex-col gap-64 px-[100px] pb-11 bg-[#A9EEFF]">
       <div className="flex flex-col pt-48 gap-5">
-        <Badge variant="default" className="bg-[#7A8CF3]">
+        {/* <Badge variant="default" className="bg-[#7A8CF3]">
           Trusted by 10,000+ Athletes
-        </Badge>
+        </Badge> */}
         <div className="flex flex-col gap-5">
-          <h1 className="md:text-5xl text-3xl md:font-semibold text-center">
+          <h1 className="md:text-6xl text-3xl md:font-black text-centr">
             Get Scouted,Go Pro
           </h1>
           <p className="max-w-[418px]">
@@ -34,9 +34,9 @@ const Hero = () => {
       <Image
         src="/Rectangle 1 (1).png"
         alt="football img"
-        width={591}
-        height={494}
-        className="pt-24 hidden md:flex"
+        width={595}
+        height={652}
+        className="pt-24 hidden md:flex "
       />
     </div>
   );
