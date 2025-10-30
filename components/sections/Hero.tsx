@@ -11,8 +11,13 @@ const Hero = () => {
         {/* <Badge variant="default" className="bg-[#7A8CF3]">
           Trusted by 10,000+ Athletes
         </Badge> */}
+
+        <Badge variant="default" className="bg-[#7A8CF3]">
+          Made by a athelete
+        </Badge>
+
         <div className="flex flex-col gap-5">
-          <h1 className="md:text-6xl text-3xl md:font-black text-centr">
+          <h1 className="md:text-6xl text-3xl md:font-black text-center">
             Get Scouted,Go Pro
           </h1>
           <p className="max-w-[418px]">
