@@ -4,11 +4,11 @@ function ButtonDesktop({ text }: { text: string }) {
       className="cursor-pointer relative rounded-[100px] size-full"
       data-name="button"
     >
-      <div className="flex flex-row items-center justify-center size-full">
-        <div className="box-border content-stretch flex gap-[10px] items-center justify-center overflow-clip px-[24px] py-[16px] relative size-full">
-          <div className="absolute backdrop-blur-[3px] backdrop-filter bg-[rgba(255,255,255,0.01)] h-[67px] left-0 top-[-8px] w-[207px]" />
-          <p className="font-['Inter:Regular',_sans-serif] font-normal leading-[normal] not-italic relative shrink-0 text-[#040404] text-[16px] text-nowrap whitespace-pre">
-            Sign In
+      <div className="flex flex-row items-center justify-center size-full rounded-lg">
+        <div className="box-border content-stretch flex gap-[10px] items-center justify-center overflow-clip px-[24px] py-[16px] relative size-full rounded-[100px]">
+          <div className="absolute backdrop-blur-[3px] backdrop-filter bg-[rgba(255,255,255,0.01)] h-[67px] left-0 top-[-8px] w-[207px] rounded-[100px]" />
+          <p className="font-['Inter:Regular',_sans-serif] font-normal leading-[normal] not-italic relative shrink-0 text-[#040404] text-[16px] text-nowrap whitespace-pre rounded-[100px]">
+            {text}
           </p>
         </div>
       </div>
@@ -27,7 +27,7 @@ function ButtonMobile({ text }: { text: string }) {
         <div className="box-border content-stretch flex gap-[10px] items-center justify-center overflow-clip px-[24px] py-[16px] relative size-full">
           <div className="absolute backdrop-blur-[3px] backdrop-filter bg-[rgba(255,255,255,0.01)] h-[67px] left-0 top-[-8px] w-[207px]" />
           <p className="font-['Inter:Regular',_sans-serif] font-normal leading-[normal] not-italic relative shrink-0 text-[#040404] text-[16px] text-nowrap whitespace-pre">
-            Sign In
+            {text}
           </p>
         </div>
       </div>
@@ -36,7 +36,7 @@ function ButtonMobile({ text }: { text: string }) {
   );
 }
 
-function Button(text: string) {
+function GlassButton({ text }: { text: string }) {
   return (
     <>
       <div className="hidden md:flex">
@@ -49,4 +49,4 @@ function Button(text: string) {
   );
 }
 
-export default Button;
+export default GlassButton;
